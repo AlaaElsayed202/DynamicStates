@@ -4,8 +4,10 @@ import { BrowserRouter, Link, NavLink, Route } from 'react-router-dom'
 export default function MainHome()
  {
   return (
-    <div className="bg-blue-900 text-white py-4 shadow-lg">
-  <nav className="flex justify-center gap-10 text-xl font-semibold">
+    <>
+  
+    <div className=" bg-blue-900 text-white py-7   shadow-lg ">
+  <nav className="flex justify-center text-center gap-10 text-xl font-semibold">
   <NavLink
           to="/counter"
           className={({ isActive }) =>
@@ -33,7 +35,12 @@ export default function MainHome()
           Fan State
         </NavLink>
       </nav>
+   
+        
+
 </div>
 
+
+  </>
   )
 }
